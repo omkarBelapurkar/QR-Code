@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter',sans-serif;
+}
+main{
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right, #d71327,#6114de);
+    padding-top: 70px;
+}
+.container{
+    width: 70%;
+    height: 600px;
+    background-color: #c5dff8;
+    margin: auto;
+    border-radius: 35px;
+    display: flex;
+    box-shadow: rgb(38, 57,77) 20px 35px 40px 0px;
+}
+#first{
+    width: 45%;
+    height: 600px;
+    background: linear-gradient(rgba(231, 13, 13, 0.953),rgba(104, 9, 9, 0.9), rgba(37, 2, 2, 0.992));
+    background-position: center;
+    background-size: cover;
+    border-radius: 35px 0px 0px 35px;
+}
+#second{
+    width: 55%;
+    height: 600px;
+}
+#first h1{
+    color: #f6f6f6fe;
+    font-size: 80px;
+    margin-top: 150px;
+    text-align: center;
+}
+section p{
+    color: #f6f6f6fe;
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-align: center;
+    margin-top: 10px;
+}
+#tagline{
+    letter-spacing: normal;
+    font-size: 18px;
+    margin-top: 50px;
+    line-height: 30px;
+    color: whitesmoke;
+}
+form input{
+    width: 85%;
+    height: 53px;
+    margin-top: 80px;
+    display: block;
+    margin-left: 40px;
+    outline: none;
+    padding: 0px 20px;
+    font-size: 18px;
+    border: 1px solid grey;
+    box-shadow: rgba(0,0,0,0.2) 0px 1px 3px 0px, rgba(27,31,0.15) 0px 0px 0px 1px;
+    border-radius: 10px;
+}
+form button{
+   width: 150px; 
+   height: 45px;
+   margin-top: 35px;
+   margin-left: 45px;
+   font-size: 18px;
+   outline: none;
+   border: none;
+   box-shadow: rgba(50,50,93,0.25) 0px 2px 5px 1px, rgba(0,0,0,0.3) 0px 0px 0px 1px;
+   background: #0842f1;
+   color: #ffffff;
+   font-weight: 500;
+   border-radius: 10px;
+   transition: 0.4s;
+}
+form button:hover{
+    cursor: pointer;
+    background-color: #df1b1b;
+}
+#qrcode-div{
+    width: 60%;
+    height: 300px;
+    margin: auto;
+    margin-top: 70px;
+}
+.active{
+    width: 280px;
+    height: 250px;
+    margin-left: 50px;
+    box-shadow: rgba(0,0,0,0.3) 0px 19px 38px, rgba(0,0,0,0.22) 0px 15px 12px;
+    transition: all 0.5s;
+}
